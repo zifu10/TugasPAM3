@@ -90,10 +90,6 @@ fun AvatarPage(
                 horizontalAlignment = Alignment.Start
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Checkbox(checked = showHead, onCheckedChange = { showHead = it })
-                    Text("Kepala")
-                }
-                Row(verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(checked = showEyes, onCheckedChange = { showEyes = it })
                     Text("Mata")
                 }

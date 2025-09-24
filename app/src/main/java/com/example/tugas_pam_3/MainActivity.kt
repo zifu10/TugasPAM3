@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Tugas_PAM_3Theme {
-                NavGraph() // Memanggil file navigasi
+                NavGraph()
             }
         }
     }
